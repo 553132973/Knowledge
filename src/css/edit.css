@@ -1,0 +1,12 @@
+.editor-wrapper{
+    border:1px solid #ddd;
+    margin-top:100px;
+}
+
+.submit{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}

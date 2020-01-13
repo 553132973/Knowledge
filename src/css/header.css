@@ -1,0 +1,85 @@
+.headerClass {
+    width: 100%;
+    background-color: #2f3241;
+    padding:15px 0px;
+}
+
+.inLine {
+    width: 1260px;
+    margin: auto;
+}
+
+.headImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* background: red; */
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.headImg>img{
+    width:100%;
+    height:100%;
+}
+.headName {
+    margin-left: 10px;
+}
+
+.inLine p {
+    color: rgb(139, 173, 154);
+}
+
+.centerHeader,
+.leftHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.centerHeader {
+    height: 80px;
+}
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: flex-end;
+}
+
+.rightHeader img {
+    width: 25px;
+    height: 25px;
+}
+
+body,
+img,
+div,
+a,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.weChat {
+    margin-right: 10px;
+}
+
+.tabBtn {
+    margin-left: 15px;
+}
+
+.mainBody {
+    width: 1100px;
+    margin: auto;
+}
+.musicCss{
+    width:220px;
+    height:40px;
+    border:none;
+}
+.headerMusic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

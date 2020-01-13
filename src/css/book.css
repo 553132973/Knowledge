@@ -1,0 +1,11 @@
+.bookModel{
+    /* border:1px solid black; */
+    height:900px;
+    margin-top:100px;
+}
+
+.bookTitleRow{
+    width:100%;
+    border-bottom:1px solid #ddd;
+    padding:25px 0px;
+}
