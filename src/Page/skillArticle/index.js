@@ -1,11 +1,12 @@
 import React from 'react';
-import store from '../store'
-import TodoListUi from './../components/shillCom'
-import axios from 'axios'
-// import a from '../static/data1.json'
-import { changeInputAction, addItemAction, deleteItem,dataAction } from './../store/actionCreators'
+import store from '../../store';
+import TodoListUi from './../../components/shillCom';
+import List from './components/list';
+import css from './index.less'
+import axios from 'axios';
+import { changeInputAction, addItemAction, deleteItem,dataAction } from './../../store/actionCreators';
 const arr = ['小时', '2时', '3时', '4时', '5时', '6时']
-class skill extends React.Component {
+class index extends React.Component {
   constructor(props) {
     super(props)
     this.state = store.getState();
@@ -50,18 +51,19 @@ class skill extends React.Component {
   }
   render() {
     return (
-      <div>
-        <TodoListUi
+      <div className={css.skillList}>
+        <List/>
+        {/* <TodoListUi
           inputValue={this.state.inputValue}
           list={this.state.list}
           changeInputValue={this.changeInputValue}
           clickBtn={this.clickBtn}
           deleteItem={this.deleteItem}
           data={this.state.data}
-        />
+        /> */}
       </div>
     );
   }
 }
 
-export default skill;
+export default index;

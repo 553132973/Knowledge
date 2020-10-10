@@ -8,7 +8,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import Skill from './skill';
+import SkillArticle from './skillArticle';
 import Movies from './movie';
 import Book from './book';
 import Edit from './edit';
@@ -17,7 +17,7 @@ class header extends React.Component {
   state = {
     visible: false,
   };
-
+  
   showDrawer = () => {
     let that = this;
     this.setState({
@@ -92,7 +92,7 @@ class header extends React.Component {
             <Route path="/content/edit" component={Edit} />
             <Route path="/content/book" component={Book} />
             <Route path="/content/movies" component={Movies} />
-            <Route exact path="/content" component={Skill} />
+            <Route exact path="/content" component={SkillArticle} />
           </div>
           <Personal onClosed={this.onClosed} visible={this.state.visible} />
         </div>
