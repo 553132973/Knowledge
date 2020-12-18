@@ -18,7 +18,7 @@ class land extends React.Component {
     const {id} = this.state
     return (
       <div id={id}>
-        <p> <Link to="/content">登陆</Link> </p>
+        <p> <Link to="/content">登陆1</Link> </p>
       </div>
     );
   }
