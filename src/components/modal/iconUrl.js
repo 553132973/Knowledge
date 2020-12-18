@@ -8,7 +8,7 @@ class iconUrl extends React.Component {
         
         return (
             <div> 
-                <img src={snowflakeIcon} style={{wdith:`${lenght}px`,height:`${lenght}px`}}/>
+                <img src={snowflakeIcon} alt="上海鲜花港 - 郁金香"  style={{wdith:`${lenght}px`,height:`${lenght}px`}}/>
             </div>
         );
     }

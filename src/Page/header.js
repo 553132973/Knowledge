@@ -4,7 +4,6 @@ import '../css/header.css';
 import Personal from './personal';
 import {
   BrowserRouter as Router,
-  HashRouter,
   Route,
   Link,
 } from 'react-router-dom';
@@ -39,7 +38,7 @@ class header extends React.Component {
                 <Col type="flex" span={6}>
                   <div className="leftHeader">
                     <div className="headImg">
-                      <img src='https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1558490629&di=64c246d99d759b5d455b7ce4a598296a&src=http://img3.duitang.com/uploads/item/201508/30/20150830080620_niAmE.jpeg' />
+                      <img src='https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1558490629&di=64c246d99d759b5d455b7ce4a598296a&src=http://img3.duitang.com/uploads/item/201508/30/20150830080620_niAmE.jpeg' alt="github"/>
                     </div>
                     <div className="headName">
                       <p>undefindBird</p>

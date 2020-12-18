@@ -1,5 +1,5 @@
 import React from 'react';
-import IconUrl from './iconUrl'
+// import IconUrl from './iconUrl'
 
 
 const backStyle = {

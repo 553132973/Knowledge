@@ -3,11 +3,11 @@ import land from './Page/land';
 import Content from './Page/content';
 import {
   BrowserRouter as Router,
-  HashRouter,
+  // HashRouter,
   Route,
-  Link,
+  // Link,
 } from 'react-router-dom';
-import {Divider} from 'antd';
+// import {Divider} from 'antd';
 
 class App extends React.Component {
   constructor (props) {

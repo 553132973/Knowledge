@@ -2,7 +2,7 @@ import 'braft-editor/dist/index.css'
 import React from 'react'
 import BraftEditor from 'braft-editor'
 import '../css/edit.css'
-import {Button,message} from 'antd'
+import {Button} from 'antd'
 export default class BasicDemo extends React.Component {
 
   state = {

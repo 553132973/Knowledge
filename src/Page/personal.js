@@ -1,5 +1,5 @@
 import React from 'react';
-import {Drawer, Button, Radio} from 'antd';
+import {Drawer, Radio} from 'antd';
 const RadioGroup = Radio.Group;
 
 class personal extends React.Component {
