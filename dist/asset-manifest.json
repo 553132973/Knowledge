@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a404cab2.chunk.css",
+    "main.js": "./static/js/main.ed47b6a8.chunk.js",
+    "main.js.map": "./static/js/main.ed47b6a8.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.8930cd14.chunk.css": "./static/css/2.8930cd14.chunk.css",
+    "static/js/2.240ddc7b.chunk.js": "./static/js/2.240ddc7b.chunk.js",
+    "static/js/2.240ddc7b.chunk.js.map": "./static/js/2.240ddc7b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.9ebfbb60ddcf38751e51b578be198990.js": "./precache-manifest.9ebfbb60ddcf38751e51b578be198990.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.8930cd14.chunk.css.map": "./static/css/2.8930cd14.chunk.css.map",
+    "static/css/main.a404cab2.chunk.css.map": "./static/css/main.a404cab2.chunk.css.map",
+    "static/media/timg.jpg": "./static/media/timg.e563b39c.jpg",
+    "static/media/user.png": "./static/media/user.14d01a2b.png",
+    "static/media/晴天_周杰伦_128K.mp3": "./static/media/晴天_周杰伦_128K.f5f838a7.mp3"
+  }
+}

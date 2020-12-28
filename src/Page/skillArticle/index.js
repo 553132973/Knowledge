@@ -1,11 +1,11 @@
 import React from 'react';
 import store from '../../store';
-import TodoListUi from './../../components/shillCom';
+// import TodoListUi from './../../components/shillCom';
 import List from './components/list';
 import './index.css'
 import axios from 'axios';
 import { changeInputAction, addItemAction, deleteItem,dataAction } from './../../store/actionCreators';
-const arr = ['小时', '2时', '3时', '4时', '5时', '6时']
+// const arr = ['小时', '2时', '3时', '4时', '5时', '6时']
 class index extends React.Component {
   constructor(props) {
     super(props)

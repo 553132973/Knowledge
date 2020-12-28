@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage":"./",
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -70,13 +71,8 @@
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
-    "extends": "react-app",
-    "rules": {
-      "no-undef": "off",
-      "no-restricted-globals": "off",
-      "no-unused-vars": "off"
-    }
-},
+    "extends": "react-app"
+  },
   "browserslist": {
     "production": [
       ">0.2%",

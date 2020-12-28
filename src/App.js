@@ -25,7 +25,7 @@ class App extends React.Component {
   render () {
     return (
       <Router>
-        <div className="App">
+        <div style={{zIndex:1}}>
           <Route exact path="/" component={land} />
           <Route path="/Content" component={Content} />
         </div>

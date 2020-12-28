@@ -6,6 +6,7 @@ const backStyle = {
     width: '100%',
     height: '100%',
     position: 'fixed',
+    zIndex:1
     // background: '#000',
 }
 class modal extends React.Component {
@@ -29,15 +30,15 @@ class modal extends React.Component {
         }, 400);
     }
     componentDidMount() {
-        // const flame = this.refs.flame
-        // let that = this
-        // setInterval(function () {
-        //     const odiv = document.createElement('div');  //创建div
-        //     odiv.innerHTML = "✽";   //div的内容
-        //     odiv.style.position = 'absolute';  //div的绝对定位
-        //     flame.appendChild(odiv);   //把创建好的div放进flame中
-        //     that.obj(odiv);  //执行obj的draw方法
-        // }, 800);
+        const flame = this.refs.flame
+        let that = this
+        setInterval(function () {
+            const odiv = document.createElement('div');  //创建div
+            odiv.innerHTML = "￥100";   //div的内容
+            odiv.style.position = 'absolute';  //div的绝对定位
+            flame.appendChild(odiv);   //把创建好的div放进flame中
+            that.obj(odiv);  //执行obj的draw方法
+        }, 800);
     }
     render() {
         return (
