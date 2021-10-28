@@ -1,28 +1,23 @@
-import React from 'react';
-import land from './Page/land';
-import Content from './Page/content';
+import React from "react";
+import land from "./Page/land";
+import Content from "./Page/content";
 import {
   BrowserRouter as Router,
   HashRouter,
   Route,
   Link,
-} from 'react-router-dom';
-import {Divider} from 'antd';
+} from "react-router-dom";
+import { Divider } from "antd";
 
 class App extends React.Component {
-  constructor (props) {
-    super (props);
+  constructor(props) {
+    super(props);
     this.state = {
-      count: '',
+      count: "",
     };
   }
-  enter (e) {
-    console.log (e.target.getAttribute ('aid'));
-  }
-  change (e) {
-    console.log (e.keyCode);
-  }
-  render () {
+
+  render() {
     return (
       <Router>
         <div className="App">
