@@ -1,21 +1,21 @@
-import React from 'react';
-import {Drawer, Button, Radio} from 'antd';
+import React from "react";
+import { Drawer, Button, Radio } from "antd";
 const RadioGroup = Radio.Group;
 
 class personal extends React.Component {
   state = {};
 
-  componentDidMount () {
-    console.log (this.props);
+  componentDidMount() {
+    console.log(this.props);
   }
 
-  render () {
+  render() {
     return (
       <div>
         <RadioGroup defaultValue={this.state.placement} />
         <Drawer
           title="Basic Drawer"
-          placement={'top'}
+          placement={"top"}
           closable={false}
           onClose={this.props.onClosed}
           visible={this.props.visible}

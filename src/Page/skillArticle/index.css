@@ -1,33 +1,36 @@
-.skillList{
-    width: 100%;
-    /* border:1px solid black; */
-    margin-top:20px;
+.skillList {
+  width: 100%;
+  /* border:1px solid black; */
+  margin-top: 20px;
 }
-.eachColumn{
-    width:60%;
-    height:300px;
-    border:1px solid #ddd;
-    border-radius:8px;
-    margin: auto;
-    margin-top:20px;
-
+.eachColumn {
+  width: 60%;
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20px;
 }
-.eachColumn>div{
-    width:90%;
-    margin:auto;
+.eachColumn > div {
+  width: 90%;
+  margin: auto;
 }
-.skillListTitle{
-    font-size:15px;
-    font-weight: bold;
-    margin-top:5px;
+.skillListTitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
 }
-.skillListImg{
-    width:100%;
-    margin: auto;
-    height:200px;
-    margin-top:5px;
+.skillListImg {
+  width: 100%;
+  margin: auto;
+  height: 200px;
+  margin-top: 5px;
 }
-.skillListMain{
-    margin-top: 5px;
-    color: #aaa;
+.skillListMain {
+  margin-top: 5px;
+  color: #aaa;
+}
+.time {
+  width: 100%;
+  text-align: right;
 }

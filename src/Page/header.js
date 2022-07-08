@@ -39,10 +39,10 @@ class header extends React.Component {
                 <Col type="flex" span={6}>
                   <div className="leftHeader">
                     <div className="headImg">
-                      <img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1558490629&di=64c246d99d759b5d455b7ce4a598296a&src=http://img3.duitang.com/uploads/item/201508/30/20150830080620_niAmE.jpeg" />
+                      <img src={require("../images/timg.jpg")} alt="github" />
                     </div>
                     <div className="headName">
-                      <p>undefindBird</p>
+                      <p>前端一鸟</p>
                     </div>
                   </div>
                 </Col>
@@ -50,13 +50,13 @@ class header extends React.Component {
                   <div className="headerMusic">
                     <div className="centerHeader">
                       <p>
-                        <Link to="/content">一</Link>
+                        <Link to="/content">技术分享</Link>
                       </p>
                       <p className="tabBtn">
                         <Link to="/content/movies">二</Link>
                       </p>
                       <p className="tabBtn">
-                        <Link to="/content/book">三</Link>
+                        {/* <Link to="/content/book">三</Link> */}
                       </p>
                       <p className="tabBtn">
                         <Link to="/content/edit">编辑</Link>
