@@ -23,18 +23,18 @@ class land extends React.Component {
       <div
         id={id}
         style={{
-          width: "100px",
-          height: "400px",
+          position: "fixed",
+          top: "40%",
+          width: "30%",
+          left: "35%",
           display: "flex",
-          top: "30%",
-          left: "15%",
-          border: "1px solid black",
-          textAlign: "center",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <p>
-          <Link to="/content">点我</Link>
-        </p>
+        <h2>
+          <Link to="/content">欢迎点我，花里胡哨</Link>
+        </h2>
       </div>
     );
   }
