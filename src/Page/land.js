@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Modal from "../components/modal/index";
 class land extends React.Component {
   state = {
     id: "land",
@@ -32,7 +32,8 @@ class land extends React.Component {
           alignItems: "center",
         }}
       >
-        <h2>
+        <Modal />
+        <h2 style={{ zIndex: "999" }}>
           <Link to="/content">欢迎点我，花里胡哨</Link>
         </h2>
       </div>

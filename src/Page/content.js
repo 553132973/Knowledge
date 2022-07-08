@@ -11,7 +11,7 @@ class content extends React.Component {
   render() {
     return (
       <div>
-        <Modal />
+        {/* <Modal /> */}
         <Header />
       </div>
     );

@@ -12,6 +12,7 @@ import SkillArticle from "./skillArticle";
 import Movies from "./movie";
 import Book from "./book";
 import Edit from "./edit";
+import Divination from "./divination";
 import Jay from "../music/晴天_周杰伦_128K.mp3";
 class header extends React.Component {
   state = {
@@ -19,7 +20,6 @@ class header extends React.Component {
   };
 
   showDrawer = () => {
-    let that = this;
     this.setState({
       visible: true,
     });
@@ -50,13 +50,10 @@ class header extends React.Component {
                   <div className="headerMusic">
                     <div className="centerHeader">
                       <p>
-                        <Link to="/content">技术分享</Link>
+                        <Link to="/content/book">技术分享</Link>
                       </p>
                       <p className="tabBtn">
-                        <Link to="/content/movies">二</Link>
-                      </p>
-                      <p className="tabBtn">
-                        {/* <Link to="/content/book">三</Link> */}
+                        <Link to="/content/divination">占卜</Link>
                       </p>
                       <p className="tabBtn">
                         <Link to="/content/edit">编辑</Link>
@@ -95,6 +92,7 @@ class header extends React.Component {
             <Route path="/content/edit" component={Edit} />
             <Route path="/content/book" component={Book} />
             <Route path="/content/movies" component={Movies} />
+            <Route path="/content/divination" component={Divination} />
             <Route exact path="/content" component={SkillArticle} />
           </div>
           <Personal onClosed={this.onClosed} visible={this.state.visible} />

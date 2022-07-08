@@ -12,25 +12,9 @@ class book extends React.Component {
       bookList: [],
     };
   }
-  componentWillMount() {
-    this.bookListMethod();
-  }
-  bookListMethod = () => {
-    axios
-      .get(`${api.address}bookList`)
-      .then((res) => {
-        this.setState({
-          bookList: [],
-        });
-      })
-      .catch((err) => {});
-  };
+
   render() {
-    return (
-      <div className="bookModel">
-        <BookList listData={this.state.bookList} />
-      </div>
-    );
+    return <div className="bookModel">sssss</div>;
   }
 }
 
